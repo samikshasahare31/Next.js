@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import "../globals.css";
 
 const Home = () => {
   return (
@@ -23,7 +23,8 @@ const Home = () => {
           </ul>
         </nav> */}
       </header>
-      <h1>Welcome to Next.js</h1>
+      <h1 className="font-roboto">Welcome to Next.js</h1>
+
     </>
 
   )

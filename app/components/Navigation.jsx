@@ -1,9 +1,9 @@
 import { headers } from "next/headers";
 import Link from "next/link";
-
+import "../globals.css";
 export default function Navigation() {
-    return <header className="grid grid-cols-2">
-        <div className=""></div>
+    return <header className="grid grid-cols-2 font-work">
+        <div className="">Logo</div>
         <nav>
             <ul className="flex gap-4">
                 <li><Link href="/">Home</Link></li>
