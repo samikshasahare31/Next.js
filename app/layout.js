@@ -1,6 +1,17 @@
 import { Roboto, Work_Sans } from 'next/font/google';
 import "./globals.css";
 
+export const metadata = {
+    title: "Contact Page",
+    description: "This is my Contact page",
+    authors: [{ name: "john" }, { name: "amazing" }],
+    keyword: ['next.js', 'react.js', 'fullstack'],
+    // icons:{
+    //     icon:"/vercel.svg"
+    // }
+
+};
+
 
 const roboto = Roboto({
     subsets: ["latin"],  //specific group of characters based on a language or script

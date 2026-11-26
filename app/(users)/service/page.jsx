@@ -1,6 +1,16 @@
 import Image from "next/image";
 import '../../globals.css';
+
+
+export const metadata = {
+  title: "Service Page",
+  description: "This is my service page",
+  authors: [{ name: "john" }, { name: "amazing" }],
+  keyword: ['next.js', 'react.js', 'fullstack'],
+};
 export default function Services() {
+
+
   const teamMembers = [
     {
       name: "Thapa Technical",
