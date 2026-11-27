@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Counter } from "./Counter";
 
 const URL = "https://jsonplaceholder.typicode.com/posts";
 
@@ -32,6 +33,7 @@ const ClientComp = () => {
             >
                 Click Me
             </button>
+            <Counter />
 
             <ul className="grid grid-cols-3 gap-5">
                 {postData.map((curElem) => {
